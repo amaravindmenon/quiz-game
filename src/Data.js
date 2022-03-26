@@ -1,26 +1,93 @@
 const data = [{
+
         id: 1,
-        question: "Where was the BRICS summit held in 2014?",
+        question: "What are the small pieces of wood on top of the stumps called?",
         answers: [{
-                text: "Brazil",
+                text: "Bails",
                 correct: true,
             },
             {
-                text: "India",
+                text: "Sticks",
                 correct: false,
             },
             {
-                text: "Russia",
+                text: "Stumpettes",
                 correct: false,
             },
             {
-                text: "China",
+                text: "Toothpicks",
                 correct: false,
             },
         ],
     },
     {
+
         id: 2,
+        question: "Where did cricket originate?",
+        answers: [{
+                text: "France",
+                correct: false,
+            },
+            {
+                text: "Norway",
+                correct: false,
+            },
+            {
+                text: "England",
+                correct: true,
+            },
+            {
+                text: "Spain",
+                correct: false,
+            },
+        ],
+    },
+    {
+
+        id: 3,
+        question: "What does LBW stand for?",
+        answers: [{
+                text: "Long Ball Wide",
+                correct: false,
+            },
+            {
+                text: "Leg Beyond Width",
+                correct: false,
+            },
+            {
+                text: "Leg Before Wicket",
+                correct: true,
+            },
+            {
+                text: "Lol 'Bout to Win",
+                correct: false,
+            },
+        ],
+    },
+    {
+
+        id: 4,
+        question: "How long do test cricket matches usually go on for?",
+        answers: [{
+                text: "3 to 5 days",
+                correct: true,
+            },
+            {
+                text: "90 minutes",
+                correct: false,
+            },
+            {
+                text: "6 hours",
+                correct: false,
+            },
+            {
+                text: "Over a week",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 5,
         question: "Which of these spices is the smallest in size?",
         answers: [{
                 text: "Ajwain",
@@ -41,7 +108,29 @@ const data = [{
         ],
     },
     {
-        id: 3,
+
+        id: 6,
+        question: "Where was the BRICS summit held in 2014?",
+        answers: [{
+                text: "Brazil",
+                correct: true,
+            },
+            {
+                text: "India",
+                correct: false,
+            },
+            {
+                text: "Russia",
+                correct: false,
+            },
+            {
+                text: "China",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 7,
         question: "Which battle in 1757 marked the beginning of British occupation in India?",
         answers: [{
                 text: "Plassey",
@@ -62,7 +151,7 @@ const data = [{
         ],
     },
     {
-        id: 4,
+        id: 8,
         question: "Which is the second most spoken language of Nepal?",
         answers: [{
                 text: "Bajjika",
@@ -83,23 +172,44 @@ const data = [{
         ],
     },
     {
-        id: 5,
-        question: "In which of these two sports is the term ‘free hit’ used?",
+        id: 9,
+        question: "In which of these sports is the term ‘free hit’ used?",
         answers: [{
-                text: "Football, Squash",
+                text: "Football",
                 correct: false,
             },
             {
-                text: "Badminton, Tennis",
+                text: "Tennis",
                 correct: false,
             },
             {
-                text: "Badminton, Cricket",
+                text: "Cricket",
                 correct: true,
             },
             {
-                text: "Hockey, Cricket",
+                text: "Hockey",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 10,
+        question: "How do you win at cricket?",
+        answers: [{
+                text: "By scoring the most goals",
+                correct: false,
+            },
+            {
+                text: "By losing all your wickets",
+                correct: false,
+            },
+            {
+                text: "By scoring the most runs and losing the least wickets",
                 correct: true,
+            },
+            {
+                text: "By cheating",
+                correct: false,
             },
         ],
     },
