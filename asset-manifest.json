@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/quiz-game/static/css/main.baa1a3ac.css",
-    "main.js": "/quiz-game/static/js/main.be6f6306.js",
+    "main.js": "/quiz-game/static/js/main.6a5799e9.js",
     "static/js/787.83904489.chunk.js": "/quiz-game/static/js/787.83904489.chunk.js",
     "static/media/kaun-banega-crorepati.jpeg": "/quiz-game/static/media/kaun-banega-crorepati.7473dfe0b34b33ddc7f6.jpeg",
     "index.html": "/quiz-game/index.html",
     "main.baa1a3ac.css.map": "/quiz-game/static/css/main.baa1a3ac.css.map",
-    "main.be6f6306.js.map": "/quiz-game/static/js/main.be6f6306.js.map",
+    "main.6a5799e9.js.map": "/quiz-game/static/js/main.6a5799e9.js.map",
     "787.83904489.chunk.js.map": "/quiz-game/static/js/787.83904489.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa1a3ac.css",
-    "static/js/main.be6f6306.js"
+    "static/js/main.6a5799e9.js"
   ]
 }
