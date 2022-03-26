@@ -18,6 +18,7 @@ const Start = ({ setName, setTimeOut }) => {
                 marginTop: "300px",
             }}
         >
+            <div className="kbc_game"><h1>🏆 KBC Game 🏆</h1></div>
             <input
                 type="text"
                 placeholder="Enter Name"

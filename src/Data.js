@@ -213,6 +213,154 @@ const data = [{
             },
         ],
     },
+    {
+        id: 11,
+        question: "Effective on may 2014,the European union imposed a temporary ban on the import of which of these fruits from India?",
+        answers: [{
+                text: "Mango",
+                correct: true,
+            },
+            {
+                text: "Banana",
+                correct: false,
+            },
+            {
+
+                text: "Litchi",
+                correct: false,
+            },
+            {
+
+                text: "Pineapple",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 12,
+        question: "Where did Homi Jehangir Bhaba, the principal architect of India’s nuclear program, die in a plane crash?",
+        answers: [{
+
+                text: "Monte Rosa",
+                correct: false,
+            },
+            {
+
+                text: "Mount Ararat",
+                correct: false,
+            },
+            {
+
+                text: "Mount Elbrus",
+                correct: false,
+            },
+            {
+
+                text: "Mont Blanc",
+                correct: true,
+            },
+        ],
+    },
+    {
+        id: 13,
+        question: "Whose autobiography is titled ‘Man of Everest’ also published as ‘Tiger of the snows’?",
+        answers: [{
+
+                text: "Sir Edmund Hillary",
+                correct: false,
+            },
+            {
+
+                text: "Tenzing Norgay",
+                correct: true,
+            },
+            {
+
+                text: "George Mallory",
+                correct: false,
+            },
+            {
+
+                text: "Major H P S Aluhwalia",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 14,
+        question: "What is gulab jamun a type of?",
+        answers: [{
+
+                text: "A flower",
+                correct: false,
+            },
+            {
+
+                text: "A fruit",
+                correct: false,
+            },
+            {
+
+                text: "A tree",
+                correct: false,
+            },
+            {
+
+                text: "A sweet",
+                correct: true,
+            },
+        ],
+    },
+    {
+        id: 15,
+        question: "In the film 2 states, a Punjabi boy falls in love with a ___ girl",
+        answers: [{
+
+                text: "Bengali",
+                correct: false,
+            },
+            {
+
+                text: "Marathi",
+                correct: false,
+            },
+            {
+
+                text: "Tamil",
+                correct: true,
+            },
+            {
+
+                text: "Malayali",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 16,
+        question: "Bahubali festival is related to?",
+        answers: [{
+
+                text: "Islam",
+                correct: false,
+            },
+            {
+
+                text: "Hinduism",
+                correct: false,
+            },
+            {
+
+                text: "Buddhism",
+                correct: false,
+            },
+            {
+
+                text: "Jainism",
+                correct: true,
+            },
+        ],
+    },
 ];
 
 const prizeMoney = [

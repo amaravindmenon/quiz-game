@@ -163,3 +163,25 @@
     color: #fff;
     font-weight: 600;
 }
+
+.kbc_game {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+}
+
+.moneyListItemNumber {
+    width: 15%;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.lifeline {
+    height: 40px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+}

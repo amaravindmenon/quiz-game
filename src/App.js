@@ -5,6 +5,10 @@ import './App.css';
 import { data, prizeMoney } from './Data'
 import Timer from './components/Timer'
 import Start from './components/Start';
+import audiencePoll from '../src/assets/audience_poll.png'
+import fiftyFifty from '../src/assets/fifty_fifty.png'
+import flipQuestion from '../src/assets/flip_the_question.png'
+import askExpert from '../src/assets/ask_the_expert.png'
 
 function App() {
   const [name, setName] = useState(null);
@@ -51,8 +55,8 @@ function App() {
           <MDBCol md="3" className='money'>
             <MDBListGroup className='money-list'>
               <MDBRow>
-                <span className='mb-2'>
-                  <MDBBtn style={{ float: "right" }} className="mx-2" color="light" onClick={() => setTimeOut(true)}>
+                <span className='mb-1'>
+                  <MDBBtn style={{ float: "right" }} className="mx-4" color="light" onClick={() => setTimeOut(true)}>
                     Quit
                   </MDBBtn>
                   <MDBBtn style={{ float: "right" }} onClick={() => { setName(null); setQuestionNumber(1); setEarned("₹ 0") }}>
@@ -60,14 +64,28 @@ function App() {
                   </MDBBtn>
                 </span>
                 <MDBCol md="6">Name : {name} </MDBCol>
-                <MDBCol md="6">Total Earned: {earned} </MDBCol>
+                <MDBCol md="5">Total Earned: {earned} </MDBCol>
+                <hr />
+                <MDBCol md="3">
+                  <img src={audiencePoll} alt="Audience Poll" class="lifeline" />
+                </MDBCol>
+                <MDBCol md="3">
+                  <img src={fiftyFifty} alt="Fifty Fifty" class="lifeline" />
+                </MDBCol>
+                <MDBCol md="3">
+                  <img src={flipQuestion} alt="Flip Question" class="lifeline" />
+                </MDBCol>
+                <MDBCol md="3">
+                  <img src={askExpert} alt="Ask the Expert" class="lifeline" />
+                </MDBCol>
               </MDBRow>
               <hr />
               {prizeMoney.map((item) => (
                 <>
                   <li className={questionNumber === item.id ? "item active" : "item"}>
                     <h5 className="amount">
-                      {item.amount}
+                      <span className="moneyListItemNumber">{item.id}</span>
+                      <span className="moneyListItemAmount">{item.amount}</span>
                     </h5>
                   </li>
                 </>
